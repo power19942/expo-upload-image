@@ -78,7 +78,7 @@ export default class App extends React.Component {
                     delay={2000}
                     style={this.state.size}
                     autoplay
-                    pageInfo
+                    bullets
                     onAnimateNextPage={(p) => console.log(p)}
                 >
                     {this.state.photos.map(photo=>{
